@@ -6,6 +6,11 @@
 # Use the each method to print out a complete sentence stating the weather using the Array below:
 weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
+weather_options.each do |option|
+  puts "The weather today is nice and #{option}."
+
+end 
+
 # Challenge 2
 # Use the each method to print out the words that are exactly 3 characters in length
 words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
